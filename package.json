@@ -10,6 +10,7 @@
         "packages": [
             "vite-app",
             "snowpack-app",
+            "wmr-app",
             "common"
         ]
     },

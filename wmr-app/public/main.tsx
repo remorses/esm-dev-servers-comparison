@@ -1,7 +1,7 @@
 import { Page } from 'common'
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { Comp, x } from './file'
+import { Comp, x } from './file.jsx'
 import './file.css'
 
 ReactDOM.render(
@@ -12,7 +12,3 @@ ReactDOM.render(
     </React.StrictMode>,
     document.getElementById('root'),
 )
-
-if (import.meta.hot) {
-    import.meta.hot.accept()
-}
