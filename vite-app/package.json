@@ -1,0 +1,28 @@
+{
+    "name": "package",
+    "version": "0.0.0",
+    "description": "",
+    "main": "dist/index.js",
+    "module": "esm/index.js",
+    "types": "dist/index.d.ts",
+    "repository": "https://github.com/remorses/esbuild-plugins.git",
+    "scripts": {
+        "dev": "vite"
+    },
+    "files": [
+        "dist",
+        "src",
+        "esm"
+    ],
+    "keywords": [],
+    "author": "Tommaso De Rossi, morse <beats.by.morse@gmail.com>",
+    "license": "ISC",
+    "devDependencies": {},
+    "dependencies": {
+        "common": "*",
+        "react": "^17.0.1",
+        "react-dom": "^17.0.1",
+        "vite": "^1.0.0-rc.13"
+    },
+    "peerDependencies": {}
+}

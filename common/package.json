@@ -1,5 +1,5 @@
 {
-    "name": "package",
+    "name": "common",
     "version": "0.0.0",
     "description": "",
     "main": "dist/index.js",
@@ -8,7 +8,7 @@
     "repository": "https://github.com/remorses/esbuild-plugins.git",
     "scripts": {
         "build": "tsc && tsc -m es6 --outDir esm",
-        "watch": "tsc -w"
+        "watch": "tsc -m es6 --outDir esm -w"
     },
     "files": [
         "dist",
@@ -19,6 +19,13 @@
     "author": "Tommaso De Rossi, morse <beats.by.morse@gmail.com>",
     "license": "ISC",
     "devDependencies": {},
-    "dependencies": {},
-    "peerDependencies": {}
+    "dependencies": {
+        "@chakra-ui/core": "^0.8.0",
+        "@emotion/core": "10",
+        "@emotion/styled": "10",
+        "landing-blocks": "^1.0.61"
+    },
+    "peerDependencies": {
+        "react": "*"
+    }
 }
