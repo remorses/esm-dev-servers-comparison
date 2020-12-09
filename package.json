@@ -9,6 +9,7 @@
     "workspaces": {
         "packages": [
             "vite-app",
+            "snowpack-app",
             "common"
         ]
     },
