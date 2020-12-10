@@ -5,4 +5,3 @@ export const Comp = () => {
     return <div>xxx</div>
 }
 
-export const x = 1
