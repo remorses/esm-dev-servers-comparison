@@ -41,7 +41,7 @@ export const Page = () => (
                     The best companies are built on unified content
                 </Heading>
             }
-            subheading='More than 4.000 businesses use DatoCMS to create their online content at scale from a central hub, and distribute it easily via API to websites and any other digital experience.'
+            subheading='More than 4.000.000 businesses use DatoCMS to create their online content at scale from a central hub, and distribute it easily via API to websites and any other digital experience.'
             image={null}
             // cta={<Button>Try it now for free!</Button>}
             cta={

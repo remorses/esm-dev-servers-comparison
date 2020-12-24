@@ -1,4 +1,4 @@
-import { Page } from 'common'
+import { Page } from 'common/src'
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { Comp } from './file'
@@ -12,3 +12,5 @@ ReactDOM.render(
     </React.StrictMode>,
     document.getElementById('root'),
 )
+
+
