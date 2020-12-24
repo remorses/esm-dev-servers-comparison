@@ -11,6 +11,7 @@
             "vite-app",
             "snowpack-app",
             "wmr-app",
+            "bundless-app",
             "common"
         ]
     },

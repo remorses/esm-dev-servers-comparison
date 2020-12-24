@@ -1,5 +1,5 @@
 {
-    "name": "snowpack-app",
+    "name": "espack-app",
     "version": "0.0.0",
     "description": "",
     "main": "dist/index.js",
@@ -7,7 +7,7 @@
     "types": "dist/index.d.ts",
     "repository": "https://github.com/remorses/esbuild-plugins.git",
     "scripts": {
-        "dev": "snowpack dev"
+        "dev": "ESBUILD_BIN_PATH_FOR_TESTS=/Users/morse/Documents/GitHub/esbuild/esbuild /Users/morse/Documents/GitHub/espack/espack/bin.js"
     },
     "files": [
         "dist",
@@ -18,14 +18,12 @@
     "author": "Tommaso De Rossi, morse <beats.by.morse@gmail.com>",
     "license": "ISC",
     "devDependencies": {
-        "@snowpack/plugin-react-refresh": "^2.3.8"
+        "vite-plugin-react": "^4.0.1"
     },
     "dependencies": {
         "common": "*",
-        "esbuild": "^0.8.23",
         "react": "^17.0.1",
-        "react-dom": "^17.0.1",
-        "snowpack": "^2.18.2"
+        "react-dom": "^17.0.1"
     },
     "peerDependencies": {}
 }
